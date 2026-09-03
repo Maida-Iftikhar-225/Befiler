@@ -2,7 +2,7 @@ import React from "react";
 import { FaFileAlt, FaShieldAlt, FaBell, FaHeadset } from "react-icons/fa";
 
 import mobileImage from "/src/assets/home/mobile-app.webp";
-import playStoreImage from "../../assets/home/logos/playstore.png";
+import playStoreImage from "../../assets/home/logos/Playstore.png";
 
 const Befilerapp = () => {
   const features = [
