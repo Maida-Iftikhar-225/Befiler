@@ -1,102 +1,123 @@
 import React from "react";
 
+import Engro from "/src/assets/home/logos/engro.png";
+import ICMAP from "/src/assets/home/logos/ICMAP.png";
+import UBL from "/src/assets/home/logos/ubl.png";
+import Allied from "/src/assets/home/logos/Allied.png";
+import KCCI from "/src/assets/home/logos/kcci.png";
+import PSEB from "/src/assets/home/logos/pseb.png";
+import Telenor from "/src/assets/home/logos/telenor.png";
+import JSBank from "/src/assets/home/logos/js.png";
+import ACCA from "/src/assets/home/logos/acca.png";
+import Meezan from "/src/assets/home/logos/meezan.png";
+import SECP from "/src/assets/home/logos/secp.png";
+import PASHA from "/src/assets/home/logos/pasha.png";
+import NCC from "/src/assets/home/logos/ncc.png";
+import HBL from "/src/assets/home/logos/hbl.png";
+import AWS from "/src/assets/home/logos/aws.png";
+
+import BankAlfalah from "/src/assets/home/logos/bank-alfalah.png";
+import EasyPaisa from "/src/assets/home/logos/easypaisa.png";
+import AskariBank from "/src/assets/home/logos/askari-bank.svg";
+import BankAlHabib from "/src/assets/home/logos/alhabib-limited.svg";
 const PartnersSection = () => {
   const partners = [
-    {
-      name: "Engro",
-      image: "/src/assets/home/logos/engro.png",
-    },
-    { name: "ICMAP", image: "/src/assets/home/logos/ICMAP.png" },
-    {
-      name: "UBL",
-      image: "/src/assets/home/logos/ubl.png",
-    },
-    {
-      name: "Allied Bank",
-      image: "/src/assets/home/logos/Allied.png",
-    },
-    {
-      name: "KCCI",
-      image: "/src/assets/home/logos/kcci.png",
-    },
-    {
-      name: "PEB",
-      image: "/src/assets/home/logos/pseb.png",
-    },
-    {
-      name: "Telenor",
-      image: "/src/assets/home/logos/telenor.png",
-    },
-    {
-      name: "JS Bank",
-      image: "/src/assets/home/logos/js.png",
-    },
-    {
-      name: "ACCA",
-      image: "/src/assets/home/logos/acca.png",
-    },
-    {
-      name: "Meezan Bank",
-      image: "/src/assets/home/logos/meezan.png",
-    },
-    {
-      name: "FBR",
-      image: "/src/assets/home/logos/secp.png",
-    },
-    {
-      name: "P@SHA",
-      image: "/src/assets/home/logos/pasha.png",
-    },
-    {
-      name: "NC",
-      image: "/src/assets/home/logos/ncc.png",
-    },
-    {
-      name: "HBL",
-      image: "/src/assets/home/logos/hbl.png",
-    },
-    {
-      name: "AWS",
-      image: "/src/assets/home/logos/aws.png",
-    },
-  ];
+  {
+    name: "Engro",
+    image: Engro,
+  },
+  {
+    name: "ICMAP",
+    image: ICMAP,
+  },
+  {
+    name: "UBL",
+    image: UBL,
+  },
+  {
+    name: "Allied Bank",
+    image: Allied,
+  },
+  {
+    name: "KCCI",
+    image: KCCI,
+  },
+  {
+    name: "PEB",
+    image: PSEB,
+  },
+  {
+    name: "Telenor",
+    image: Telenor,
+  },
+  {
+    name: "JS Bank",
+    image: JSBank,
+  },
+  {
+    name: "ACCA",
+    image: ACCA,
+  },
+  {
+    name: "Meezan Bank",
+    image: Meezan,
+  },
+  {
+    name: "FBR",
+    image: SECP,
+  },
+  {
+    name: "P@SHA",
+    image: PASHA,
+  },
+  {
+    name: "NC",
+    image: NCC,
+  },
+  {
+    name: "HBL",
+    image: HBL,
+  },
+  {
+    name: "AWS",
+    image: AWS,
+  },
+];
 
   const banks = [
-    {
-      name: "Bank Alfalah",
-      image: "/src/assets/home/logos/bank-alfalah.png",
-    },
-    {
-      name: "HBL",
-      image: "/src/assets/home/logos/hbl.png",
-    },
-   
-    {
-      name: "Allied Bank",
-      image: "/src/assets/home/logos/Allied.png",
-    },
-    {
-      name: "Meezan Bank",
-      image: "/src/assets/home/logos/meezan.png",
-    },
-    
-     {
-      name: "UBL",
-      image: "/src/assets/home/logos/ubl.png",
-    },
-    {
-      name: "EasyPaisa",
-      image: "/src/assets/home/logos/easypaisa.png",
-    },
-    {
-      name: "Askari-Bank",
-      image: "/src/assets/home/logos/askari-bank.svg",
-    },
-    {
-      name: "Bank Al Habib",
-      image: "/src/assets/home/logos/alhabib-limited.svg",
-    },
-  ];
+  {
+    name: "Bank Alfalah",
+    image: BankAlfalah,
+  },
+  {
+    name: "HBL",
+    image: HBL,
+  },
+  {
+    name: "Allied Bank",
+    image: Allied,
+  },
+  {
+    name: "Meezan Bank",
+    image: Meezan,
+  },
+  {
+    name: "UBL",
+    image: UBL,
+  },
+  {
+    name: "EasyPaisa",
+    image: EasyPaisa,
+  },
+  {
+    name: "Askari-Bank",
+    image: AskariBank,
+  },
+  {
+    name: "Bank Al Habib",
+    image: BankAlHabib,
+  },
+];
 
   return (
     <section className="bg-[#fdfdfd] px-4 py-10 font-sans sm:px-6 lg:px-8">

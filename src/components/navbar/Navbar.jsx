@@ -13,6 +13,7 @@ import {
 import { PiVideoLight } from "react-icons/pi";
 import { HiMenu, HiX } from "react-icons/hi";
 import NavbarIcon from "/src/assets/home/logo.png";
+import USAimg from "/src/assets/home/USAflag.png";
 
 function Navbar() {
   const [openMenu, setOpenMenu] = useState(null);
@@ -142,7 +143,7 @@ function Navbar() {
             className="shrink-0 flex items-center gap-2 rounded-lg px-2.5 py-1.5 text-sm transition-colors duration-300 hover:bg-red-50 hover:text-red-600"
           >
             <img
-              src="/src/assets/home/USAflag.png"
+              src={USAimg}
               alt="usa"
               className="h-4 w-4 rounded-full shrink-0"
             />

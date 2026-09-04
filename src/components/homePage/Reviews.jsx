@@ -4,12 +4,16 @@ import { FaStar, FaPlay, FaQuoteLeft, FaBookOpen, FaClock } from 'react-icons/fa
 import { FaArrowRight } from "react-icons/fa6";
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
+import Wasim from "/src/assets/home/Wasim-.jpg";
+import pic2 from "/src/assets/home/pic-2.jpg";
+import Befilerapp from "/src/assets/home/befilerApp.jpg";
+
 const Slider = SlickSlider.default || SlickSlider
 const ReviewsAndResources = () => {
   const reviews = [
     {
       id: 1,
-      name: 'Sehrish Khan',
+      name: 'Seher Khan',
       initial: 'S',
       bgColor: 'bg-blue-600',
       role: '8 months ago',
@@ -41,7 +45,7 @@ const ReviewsAndResources = () => {
       badge: 'Video',
       title: 'How to Become an Active Taxpayer in Pakistan',
       duration: '6 min watch',
-      thumbnail: '/src/assets/home/Wasim-.jpg',
+      thumbnail: Wasim,
       videoUrl: '#',
     },
     {
@@ -49,7 +53,7 @@ const ReviewsAndResources = () => {
       badge: 'Video',
       title: 'Sole Proprietorship vs Private Limited Company',
       duration: '4 min watch',
-      thumbnail: '/src/assets/home/pic-2.jpg',
+      thumbnail: pic2,
       videoUrl: '#',
     },
     {
@@ -57,7 +61,7 @@ const ReviewsAndResources = () => {
       badge: 'Video',
       title: 'Sales Tax Registration & Monthly Returns Guide',
       duration: '8 min watch',
-      thumbnail: '/src/assets/home/befilerApp.jpg',
+      thumbnail: Befilerapp,
       videoUrl: '#',
     },
   ]
@@ -79,14 +83,13 @@ const ReviewsAndResources = () => {
       <div className="mx-auto max-w-7xl">
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
 
-      {/* CARD 1 — REVIEWS */}
       <div className="flex flex-col justify-between rounded-3xl border border-slate-100 bg-[#ffffff] p-6 sm:p-7 shadow-xl">
         <div>
           <div className="mb-6 flex items-center justify-between">
             <div className="flex items-center gap-1">
               
               <h2 className="md:text-2xl font-bold  md:font-extrabold text-slate-900 text-lg">
-                Trusted by Thousands of Pakistanis
+                Trusted by Thousands of <br></br>Pakistanis
               </h2>
             </div>
             
@@ -94,13 +97,13 @@ const ReviewsAndResources = () => {
             <span className="md:text-sm text-xs hover:underline font-semibold text-red-600">
               View all Reviews
               </span>
-            <span> <FaArrowRight className='h-3 w-3 hover:underline text-red-600 ' /></span> 
+            <span> <FaArrowRight className='h-3 w-3 hover:underline text-red-600 '/></span> 
            
            
             </div>
           </div>
 
-          {/* SLICK SLIDER (Active on xs, sm, md) */}
+     
           <div className="lg:hidden ">
             <Slider {...slickSettings}>
               {reviews.map((review) => (

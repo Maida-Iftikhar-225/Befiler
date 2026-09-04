@@ -8,6 +8,7 @@ import {
   FaShieldAlt,
   FaHeadset,
 } from "react-icons/fa";
+import Consultant from "/src/assets/home/person.png";
 
 const HowItWorks = () => {
   const steps = [
@@ -334,7 +335,7 @@ const HowItWorks = () => {
               {/* PERSON */}
 
               <img
-                src="/src/assets/home/person.png"
+                src={Consultant}
                 alt="Befiler consultant"
                 className="
                   absolute
