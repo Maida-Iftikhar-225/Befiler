@@ -3,7 +3,7 @@ import { FaWhatsapp, FaArrowRight } from "react-icons/fa";
 import { IoMdDownload } from "react-icons/io";
 import { GoStarFill } from "react-icons/go";
 import { IoShieldCheckmarkSharp } from "react-icons/io5";
-import Heroillustration from "/src/assets/home/hero-illustration.png";
+import Hero from "/src/assets/home/heroimg.png";
 
 const HeroSection = () => {
   return (
@@ -22,7 +22,7 @@ const HeroSection = () => {
 
             <div className="block lg:hidden w-full my-2">
               <img
-                src={Heroillustration}
+                src={Hero}
                 alt="Befiler tax filing platform interface"
                 className="w-full max-w-lg mx-auto object-contain scale-105"
               />
@@ -96,7 +96,7 @@ const HeroSection = () => {
           {/* Hero Image (DESKTOP: Increased max-w to 2xl & scale-110) */}
           <div className="hidden lg:flex items-center justify-center w-full">
             <img
-              src="/src/assets/home/hero-illustration.png"
+              src={Hero}
               alt="Befiler tax filing platform interface"
               className="object-contain w-full max-w-5xl scale-105 origin-center transition-transform duration-300"
             />
