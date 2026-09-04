@@ -12,6 +12,7 @@ import {
 } from "react-icons/ri";
 import { PiVideoLight } from "react-icons/pi";
 import { HiMenu, HiX } from "react-icons/hi";
+import NavbarIcon from "/src/assets/home/logo.png";
 
 function Navbar() {
   const [openMenu, setOpenMenu] = useState(null);
@@ -98,7 +99,7 @@ function Navbar() {
       <nav className="mx-auto flex h-18 max-w-7xl items-center justify-between px-5">
         <a href="#" className="shrink-0 flex items-center">
           <img
-            src="/src/assets/home/logo.png"
+            src={NavbarIcon}
             alt="Befiler"
             className="h-10 w-auto object-contain"
           />
